@@ -1,5 +1,6 @@
 import csv
 
+#longest common subsequence algo
 def lcs(a, b):
     lengths = [[0 for j in range(len(b)+1)] for i in range(len(a)+1)]
     # row 0 and column 0 are initialized to 0 already
